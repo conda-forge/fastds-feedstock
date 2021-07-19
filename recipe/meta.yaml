@@ -1,5 +1,5 @@
 {% set name = "fastds" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastds-{{ version }}.tar.gz
-  sha256: 0df908c121e09876db5e747568438001788f9603690135bbed6ef494f678a43b
+  sha256: 587837c93cb180f76a0f9aa020fcea5d4b318ac25dc71166ab6da5903d7d716c
 
 build:
   number: 0
