@@ -1,5 +1,5 @@
 {% set name = "fastds" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastds-{{ version }}.tar.gz
-  sha256: 8a09b427f100e931e96af3aae06bc8c7991606897cc40c186176759e83355c3f
+  sha256: 92c746c9195dd1951e20b8325bec187eb0ba7cb4b6820850628bcc9046ae26ba
 
 build:
   number: 0
@@ -25,8 +25,8 @@ requirements:
   run:
     - colorama ==0.4.4
     - dataclasses
-    - humanize ==3.10.0
-    - progress ==1.5
+    - humanize ==3.11.0
+    - progress ==1.6
     - pyinquirer ==1.0.3
     - python >=3.6
     - requests ==2.26.0
